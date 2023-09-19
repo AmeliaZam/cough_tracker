@@ -1,0 +1,93 @@
+.cough-bar-bg {
+  background-color: white;
+}
+.cough-bar-btn {
+  width: fit-content;
+  border-radius: 13px;
+}
+.angle-box {
+  width: 180px;
+  height: 100px;
+}
+.angle-line {
+  width: 100px;
+  height: 8px;
+  border-radius: 5px;
+  position: inherit;
+  top: 27px;
+  left: 40px;
+}
+.shadow-angle {
+  width: 100px;
+  height: 1px;
+  color: #d7dbe0;
+  border-style: dashed;
+  margin: auto;
+}
+.stand-angle {
+  width: 8px;
+  height: 50px;
+  color: #d7dbe0;
+  margin-top: 2px;
+  border: 1px solid;
+  background-color: #d7dbe0;
+  margin: auto;
+}
+
+.orange-bar {
+  background-color: #f08770;
+}
+.yellow-bar {
+  background-color: #fdcd70;
+}
+.gray-bar {
+  background-color: #a1afc6;
+}
+.green-bar {
+  background-color: #9feab8;
+}
+.blue-bar {
+  background-color: #91cdef;
+}
+
+.orange-text {
+  color: #f08770;
+}
+.yellow-text {
+  color: #fdcd70;
+}
+.gray-text {
+  color: #a1afc6;
+}
+.green-text {
+  color: #9feab8;
+}
+.blue-text {
+  color: #91cdef;
+}
+
+.thirty-angle {
+  transform: rotate(-30deg);
+}
+.fifteen-angle {
+  transform: rotate(-15deg);
+}
+.zero-angle {
+  transform: rotate(0deg);
+}
+.min-fifteen-angle {
+  transform: rotate(15deg);
+}
+.min-thirty-angle {
+  transform: rotate(30deg);
+}
+
+@media screen and (max-width: 575px) {
+  .angle-box {
+    width: 280px;
+  }
+  .angle-line { 
+    top: 27px;
+    left: 90px;
+  }
+}
